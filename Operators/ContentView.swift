@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var data = OperatorsApi()
+    @State private var opac = 0.0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                OperatorView()
+                    .opacity(opac)
+            }
+            .environmentObject(data)
+            .onAppear {
+                data.getData()
+                
+                withAnimation(.easeIn(duration: 2)) {
+                    opac = 1.0
+                }
+            }
+            .navigationTitle("COD Operators")
+        }
     }
 }
 

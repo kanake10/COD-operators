@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9652CA9A2A1BB13200EE0123 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9652CA992A1BB13200EE0123 /* CachedAsyncImage */; };
+		9652CA9C2A1BD1CD00EE0123 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9B2A1BD1CD00EE0123 /* ApiClient.swift */; };
+		9652CA9E2A1CB2D800EE0123 /* OperatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9D2A1CB2D800EE0123 /* OperatorComponent.swift */; };
+		9652CAA02A1CB41200EE0123 /* OperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9F2A1CB41200EE0123 /* OperatorView.swift */; };
 		96CE37B72A1B970700AA4B70 /* OperatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE37B62A1B970700AA4B70 /* OperatorsApp.swift */; };
 		96CE37B92A1B970700AA4B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE37B82A1B970700AA4B70 /* ContentView.swift */; };
 		96CE37BB2A1B970C00AA4B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CE37BA2A1B970C00AA4B70 /* Assets.xcassets */; };
@@ -14,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9652CA9B2A1BD1CD00EE0123 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		9652CA9D2A1CB2D800EE0123 /* OperatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorComponent.swift; sourceTree = "<group>"; };
+		9652CA9F2A1CB41200EE0123 /* OperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorView.swift; sourceTree = "<group>"; };
 		96CE37B32A1B970700AA4B70 /* Operators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Operators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CE37B62A1B970700AA4B70 /* OperatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsApp.swift; sourceTree = "<group>"; };
 		96CE37B82A1B970700AA4B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9652CA9A2A1BB13200EE0123 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +59,8 @@
 		96CE37B52A1B970700AA4B70 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
+				96CE37C62A1BB07E00AA4B70 /* api */,
+				96CE37C52A1BB05B00AA4B70 /* views */,
 				96CE37B62A1B970700AA4B70 /* OperatorsApp.swift */,
 				96CE37B82A1B970700AA4B70 /* ContentView.swift */,
 				96CE37BA2A1B970C00AA4B70 /* Assets.xcassets */,
@@ -65,6 +75,23 @@
 				96CE37BD2A1B970C00AA4B70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96CE37C52A1BB05B00AA4B70 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9652CA9D2A1CB2D800EE0123 /* OperatorComponent.swift */,
+				9652CA9F2A1CB41200EE0123 /* OperatorView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		96CE37C62A1BB07E00AA4B70 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				9652CA9B2A1BD1CD00EE0123 /* ApiClient.swift */,
+			);
+			path = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +110,9 @@
 			dependencies = (
 			);
 			name = Operators;
+			packageProductDependencies = (
+				9652CA992A1BB13200EE0123 /* CachedAsyncImage */,
+			);
 			productName = Operators;
 			productReference = 96CE37B32A1B970700AA4B70 /* Operators.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 96CE37AA2A1B970700AA4B70;
+			packageReferences = (
+				9652CA982A1BB13200EE0123 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 96CE37B42A1B970700AA4B70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96CE37B92A1B970700AA4B70 /* ContentView.swift in Sources */,
+				9652CAA02A1CB41200EE0123 /* OperatorView.swift in Sources */,
+				9652CA9E2A1CB2D800EE0123 /* OperatorComponent.swift in Sources */,
 				96CE37B72A1B970700AA4B70 /* OperatorsApp.swift in Sources */,
+				9652CA9C2A1BD1CD00EE0123 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9652CA982A1BB13200EE0123 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9652CA992A1BB13200EE0123 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9652CA982A1BB13200EE0123 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96CE37AB2A1B970700AA4B70 /* Project object */;
 }
