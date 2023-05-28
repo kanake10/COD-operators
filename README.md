@@ -1,3 +1,6 @@
 # COD-operators
+<img src="https://github.com/kanake10/COD-operators/assets/77957614/43bd71eb-7f0d-47f4-8954-503ed7b5d697" width=250/>
 
-<img src="https://github.com/kanake10/COD-operators/assets/77957614/821a7d0a-e190-4556-a194-63ebde1c21ab" width=300/>
+https://github.com/kanake10/COD-operators/assets/77957614/8748bd74-205b-4090-9747-6c4a91186e70
+
+
