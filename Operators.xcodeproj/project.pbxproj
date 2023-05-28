@@ -11,6 +11,7 @@
 		9652CA9C2A1BD1CD00EE0123 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9B2A1BD1CD00EE0123 /* ApiClient.swift */; };
 		9652CA9E2A1CB2D800EE0123 /* OperatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9D2A1CB2D800EE0123 /* OperatorComponent.swift */; };
 		9652CAA02A1CB41200EE0123 /* OperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9F2A1CB41200EE0123 /* OperatorView.swift */; };
+		96A3BEBB2A236A4800D5EC9C /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A3BEBA2A236A4600D5EC9C /* image.png */; };
 		96CE37B72A1B970700AA4B70 /* OperatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE37B62A1B970700AA4B70 /* OperatorsApp.swift */; };
 		96CE37B92A1B970700AA4B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE37B82A1B970700AA4B70 /* ContentView.swift */; };
 		96CE37BB2A1B970C00AA4B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CE37BA2A1B970C00AA4B70 /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 		9652CA9B2A1BD1CD00EE0123 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		9652CA9D2A1CB2D800EE0123 /* OperatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorComponent.swift; sourceTree = "<group>"; };
 		9652CA9F2A1CB41200EE0123 /* OperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorView.swift; sourceTree = "<group>"; };
+		96A3BEBA2A236A4600D5EC9C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../image.png; sourceTree = "<group>"; };
+		96A3BEBC2A236A6900D5EC9C /* Simulator Screen Recording - iPhone 12 Pro - 2023-05-28 at 13.39.25.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Simulator Screen Recording - iPhone 12 Pro - 2023-05-28 at 13.39.25.mp4"; path = "../../../Simulator Screen Recording - iPhone 12 Pro - 2023-05-28 at 13.39.25.mp4"; sourceTree = "<group>"; };
 		96CE37B32A1B970700AA4B70 /* Operators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Operators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CE37B62A1B970700AA4B70 /* OperatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsApp.swift; sourceTree = "<group>"; };
 		96CE37B82A1B970700AA4B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,9 +43,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96A3BEB92A2369D800D5EC9C /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				96A3BEBC2A236A6900D5EC9C /* Simulator Screen Recording - iPhone 12 Pro - 2023-05-28 at 13.39.25.mp4 */,
+				96A3BEBA2A236A4600D5EC9C /* image.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		96CE37AA2A1B970700AA4B70 = {
 			isa = PBXGroup;
 			children = (
+				96A3BEB92A2369D800D5EC9C /* screenshots */,
 				96CE37B52A1B970700AA4B70 /* Operators */,
 				96CE37B42A1B970700AA4B70 /* Products */,
 			);
@@ -160,6 +173,7 @@
 			files = (
 				96CE37BE2A1B970C00AA4B70 /* Preview Assets.xcassets in Resources */,
 				96CE37BB2A1B970C00AA4B70 /* Assets.xcassets in Resources */,
+				96A3BEBB2A236A4800D5EC9C /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
